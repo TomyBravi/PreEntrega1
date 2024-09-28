@@ -1,13 +1,5 @@
-    /* No estoy seguro de como implementar la imagen de fondo sin que moleste tanto pero no se me ocurre.
-       Y también debería repasar un poco teoría de color para los contrastes de color de texto y color o imagenes de fondo */
 body {
-    background-color: aliceblue;
-
-    background-image:  url(https://i.pinimg.com/474x/47/d5/7e/47d57e00e3419b4e423cc4a646b3d5ee.jpg);
-
-    background-repeat:no-repeat ;
-    
-    background-size: 1800px 1000px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
 h1 {
@@ -15,7 +7,7 @@ h1 {
 
     font-size: 50px;
 
-    color: #107896;
+    color: #ffffff;
 }
 
 h2 {
@@ -25,7 +17,7 @@ h2 {
 
     margin-bottom: 40px;
 
-    color: #667480;
+    color: #ffffff;
 }
 
 h3 {
@@ -46,4 +38,16 @@ div {
 
 img {
     margin-left: 60px; 
+}
+
+#pedido {
+    margin-top: 40px;
+
+    margin-left: 850px;
+
+    height: 60px;
+
+    width: 100px;
+
+    font-size: 20px;
 }
